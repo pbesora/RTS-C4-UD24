@@ -42,16 +42,12 @@ public class Employee {
 		}
 
 		private Double calculateSalary(String job) {
-			System.out.println("Calcular Salary");
 			switch(Job.valueOf(job)) {
 			case BackendDev:
-				System.out.println("BackendDev");
 				return 1600.0;
 			case FrontendDev:
-				System.out.println("FrontendDev");
 				return 1800.0;
 			case FullstackDev:
-				System.out.println("FullstackDev");
 				return 2000.0;
 			default:
 				return 1000.0;
